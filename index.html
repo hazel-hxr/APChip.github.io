@@ -52,31 +52,31 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">APChip: A Versatile Dataset for Advanced Packaging Chip Surface Defect Detection</h1>
+            <h1 class="title is-1 publication-title">APChip: A Versatile Advanced Packaging Chip Dataset for Surface Defect Detection</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Xinrou Huang</a><sup></sup>,</span>
+                Xinrou Huang#</a><sup></sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Junyu Su</a><sup></sup>,</span>
+                  Junyu Su#</a><sup></sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Fei liu</a><sup></sup>,</span>
+                    Fei liu#</a><sup></sup>,</span>
                     <span class="author-block">
-                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xueping Liu</a><sup></sup>,</span>
+                      Xueping Liu</a><sup></sup>,</span>
                       <span class="author-block">
-                        <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xiaoming Zhu</a><sup></sup>,</span>
+                        Xiaoming Zhu</a><sup></sup>,</span>
                         <span class="author-block">
-                          <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Shuo Wang</a><sup></sup>,</span>
+                          Shuo Wang</a><sup></sup>,</span>
                           <span class="author-block">
-                            <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Fan Yang</a><sup></sup>,</span>
+                            Fan Yang</a><sup></sup>,</span>
                             <span class="author-block">
-                              <a href="https://www.sigs.tsinghua.edu.cn/cl/main.htm" target="_blank">Long Zeng</a><sup>✉</sup></span>
+                              <a href="https://jackyzengl.github.io/" target="_blank">Long Zeng</a><sup>✉</sup></span>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Tsinghua University<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Tsinghua University</span>
+                    <span class="eql-cntrb"><small><br><sup>#</sup>Indicates Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -88,42 +88,21 @@
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Dataset Application</span>
                       </a>
                     </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fas fa-database"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Dataset</span>
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -132,260 +111,118 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="statics/video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Surface defect detection is a critical aspect of advanced packaging chip manufacturing. To enhance production efficiency, deep learning has been progressively integrated into practical industrial applications, including chip inspection. However, this integration necessitates a substantial volume of high-quality annotated data for learning and training. In contrast to the vast datasets of everyday common objects, datasets related to defects, particularly in the industrial sector, are scarce due to low defect occurrence rates and confidentiality concerns. Public datasets specifically for semiconductor advanced packaging chips are virtually non-existent. To address this gap, we introduce the first publicly available dataset for advanced packaging chip defect detection (APChip), encompassing over 45,000 images from 13 different chip models. This dataset includes both defect-free samples and four categories of defective samples: POLLUTION, BROKEN, CRACK, and NO_DIE, with precise bounding box annotations provided for all samples. We conducted a series of defect detection experiments on this dataset, encompassing anomaly detection, fully-supervised classification, semi-supervised classification, and object detection, evaluating classical and advanced models to establish benchmark metrics for subsequent research. The results demonstrate that the APChip dataset is well-suited to meet the diverse requirements of defect detection tasks in advanced packaging chips. As a collection of real-world data, it accurately reflects the actual production conditions of versatile categories of chips, including defect morphology and data distribution, and can be utilized for versatile defect detection researches in the industrial sector, not limited to chips, thereby promoting advancements in semiconductor inspection and offering significant value to defect detection developments in other fields.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-      <div class="container is-centered has-text-centered">
-          <h2 class="title is-3">APChip Dataset</h2>
-          <div id="results-carousel" class="carousel results-carousel">
-              <div class="item item-video1" style="text-align: center;">
-                <h2 class="subtitle has-text-centered">
-                  Real-world Data
-                </h2>
-                <img src="static/images/fig2.png" alt="MY ALT TEXT" />
-                <img src="static/images/fig3.png" alt="MY ALT TEXT" />
-                <img src="static/images/table2.png" alt="MY ALT TEXT" />
-                <img src="static/images/fig4.png" alt="MY ALT TEXT" />
-                <img src="static/images/fig5.png" alt="MY ALT TEXT" />
-              </div>
-              <div class="item item-video2" style="text-align: center;">
-                <h2 class="subtitle has-text-centered">
-                  Synthetic Data
-                </h2>
-                <img src="static/images/table4.png" alt="MY ALT TEXT" />
-                <img src="static/images/fig7.png" alt="MY ALT TEXT" />
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- End Image carousel -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-      <div class="container is-centered has-text-centered">
-          <h2 class="title is-3">Chip categories</h2>
-          <div id="results-carousel" class="carousel results-carousel">
-              <div class="item item-video1" style="text-align: center;">
-                  <img src="static/images/chip_categories.png" alt="MY ALT TEXT" />
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- End Image carousel -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3"Chip Categories</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-          <!-- Your image here -->
-            <img src="static" alt="MY ALT TEXT"/>
-            <h2 class="subtitle has-text-centered">
-            </h2>
-          </div>
-        </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Surface defect detection is a critical aspect of advanced packaging chip manufacturing.  In contrast to the vast datasets of everyday common objects, datasets related to defects, particularly in the industrial sector, are scarce due to low defect occurrence rates and confidentiality concerns. Public datasets specifically for semiconductor advanced packaging chips are virtually non-existent. To address this gap, we introduce the first publicly available versatile advanced packaging chip dataset for surface defect detection (APChip), encompassing over 45,000 images from 13 different chip models. This dataset includes both defect-free samples and four categories of defective samples: POLLUTION, BROKEN, CRACK, and NO_DIE, labeled with precise bounding box annotations. In addition, we conducted a series of defect detection experiments on this dataset, encompassing anomaly detection, fully-supervised classification, semi-supervised classification, and object detection, evaluating classical and advanced models to establish benchmark metrics for future research. The results demonstrate that the APChip dataset is well-suited for diverse requirements of defect detection tasks in advanced packaging chips. As a collection of real-world data, it accurately reflects the actual production conditions of versatile categories of chips, including defect morphology and data distribution, and can be utilized for versatile defect detection researches in the industrial sector, not limited to chips, thereby promoting advancements in semiconductor inspection and offering significant value to defect detection developments in other fields.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
+<!-- End paper abstract -->
 
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+<!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+        <div class="container is-centered has-text-centered">
+          <div style="margin-bottom: 20px;"></div>
+            <h2 class="title is-3">APChip Dataset</h2>
+            <div id="results-carousel" class="carousel results-carousel">
+                <div class="item item-video1" style="text-align: center;">
+                  <h2 class="title is-4">1  Real-world Data</h2>
+                  <img src="static/images/fig2.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/fig3.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/table2.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/fig4.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/table3.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/fig6.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <h2 class="title is-5">Examples of Chip Ctegories</h2>
+                  <img src="static/images/fig5.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                </div>
+                <div class="item item-video2" style="text-align: center;">
+                  <h2 class="title is-4">2  Synthetic Data</h2>
+                  <img src="static/images/table4.png" alt="MY ALT TEXT" /><br>
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/fig7.png" alt="MY ALT TEXT" /><br>
+                  <div style="margin-bottom: 20px;"></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+  </section>
+<!-- End Image carousel -->
+
+
+<!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+        <div class="container is-centered has-text-centered">
+          <div style="margin-bottom: 20px;"></div>
+            <h2 class="title is-3">Results of Experiments</h2>
+            <img src="static/images/table5.png" alt="MY ALT TEXT" />
+            <div style="margin-bottom: 20px;"></div>
+            <div id="results-carousel" class="carousel results-carousel">
+                <div class="item item-video1" style="text-align: center;">
+                  <h2 class="title is-4">Anomaly Detection</h2>
+                  <img src="static/images/table6.png" alt="MY ALT TEXT" />
+                  <h2 class="title is-4">Fully Supervised Classification</h2>
+                  <img src="static/images/table7.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <h2 class="title is-4">Semi-supervised Classification</h2>
+                  <img src="static/images/table8.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <h2 class="title is-4">Object Detection</h2>
+                  <img src="static/images/table9.png" alt="MY ALT TEXT" />
+                  <div style="margin-bottom: 20px;"></div>
+                  <img src="static/images/table10.png" alt="MY ALT TEXT" />
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!-- End Image carousel -->
+
+
+<section class="partners">
+  <div class="container">
+      <h2>Cooperative unit</h2>
+      <p>Thank you to the following units for their support and assistance.</p>
+      <span class="dot-dash dark">.</span>
+      <div class="partners--container">
+          <div class="partners--item">
+              <div class="partners--item__image">
+                  <img src="static/images/thu3.png" alt="MY ALT TEXT">
+              </div>
+          </div>
+          <div class="partners--item">
+              <div class="partners--item__image">
+                  <img src="static/images/shuju&xinxi.png" alt="MY ALT TEXT">
+              </div>
+          </div>
+          <div class="partners--item">
+              <div class="partners--item__image">
+                  <img src="static/images/immv_sigle.png" alt="MY ALT TEXT">
+              </div>
+          </div>
+          <div class="partners--item">
+              <div class="partners--item__image">
+                  <img src="static/images/grandic.png" alt="MY ALT TEXT">
+              </div>
+          </div>
+      </div>
   </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</section>

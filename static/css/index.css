@@ -133,5 +133,49 @@ body {
   font-size: smaller;
 }
 
-
-
+.partners {
+  padding: 140px 0 110px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #f4f5f9;
+}
+.partners h2 {
+  font: 600 36px/1 "Source Sans Pro";
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  color: #6a6a6a;
+}
+.partners p {
+  font: 400 14px/25px "Source Sans Pro";
+  margin-bottom: 0;
+}
+.partners--container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 添加这行 */
+  width: 100%;
+}
+.partners--item {
+  position: relative;
+  z-index: 1;
+  float: none; /* 移除 float */
+  width: calc(25% - 30px); /* 调整宽度 */
+  margin: 0 15px 30px; /* 调整间距 */
+  text-align: center;
+  background: #ffffff;
+}
+.partners--item__image {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 170px;
+  -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+  box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+}
